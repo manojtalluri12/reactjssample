@@ -9,43 +9,17 @@ font-family: "Open Sans", sans-serif;
   font-variation-settings:
     "wdth" 100;
 }
-.Navbar{
-    display: flex;
-    justify-content: space-between;
-}
-.navleft{
-    padding: 10px;
-    margin: 10px;
-}
-.navright{
-    padding: 10px;
-    margin: 10px;
-}
-.nav{
-    padding: 10px;
-    margin: 10px;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-.navname{
-    padding: 10px;
-    margin: 10px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    border: 5px solid black;
-    border-radius: 10px;
-}
-.size{
-    height: 50vh;
-    border-radius: 10px;
-    border: 1px solid #aeaeae;
-    padding: 1rem;
-    margin: 1rem;
-    box-shadow: 0px 5px 5px 0px #aeaeae;
-}
-h1{
+.diplay{
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
 }

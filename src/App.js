@@ -1,17 +1,20 @@
 import React from 'react'
-import Header from './Header/header.js'
-import Home from './Header/Home.js'
-import About from './Header/About.js'
-import { Route,Routes } from 'react-router-dom'
+import Count from './Header/Count.js'
+import Fecth from './Header/fecth.js'
+import Render from './Header/Render.js'
+import Form from './Header/Form.js'
+import Todo from './Header/Todo.js'
+import Effect from './Header/Effect.js'
+
 const App = () => {
   return (
     <div className='App'>
-      <Header/>
-      <hr/>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/aboutus' element={<About/>}/>
-      </Routes>
+      <Count/>
+      <Fecth/>
+      <Render/>
+      <Form/>
+      <Todo/>
+      <Effect/>
     </div>
   )
 }
